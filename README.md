@@ -70,13 +70,15 @@ You can deploy this bot anywhere.
 <pre>
 git clone https://github.com/LazyDeveloperr/LazyPrincess
 # Install Packages
-Python -m pip install --upgrade pip
-Edit info.py with variables as given below then run bot
-python3 bot.py
-</pre>
-</p>
-</details>
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
 ## Commands
 ```
