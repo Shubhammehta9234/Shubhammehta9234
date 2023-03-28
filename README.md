@@ -70,7 +70,7 @@ You can deploy this bot anywhere.
 <pre>
 git clone https://github.com/LazyDeveloperr/LazyPrincess
 # Install Packages
-pip3 install -U -r requirements.txt
+Python -m pip install --upgrade pip
 Edit info.py with variables as given below then run bot
 python3 bot.py
 </pre>
